@@ -1,0 +1,16 @@
+c:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\Arcadia_test_task.dll
+c:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\Arcadia_test_task.pdb
+c:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\nunit.framework.dll
+c:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\nunit.framework.xml
+c:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\obj\Debug\Arcadia_test_task.csprojResolveAssemblyReference.cache
+c:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\obj\Debug\Arcadia_test_task.dll
+c:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\obj\Debug\Arcadia_test_task.pdb
+c:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\Arcadia_test_task.dll.config
+c:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\TechTalk.SpecFlow.dll
+c:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\WebDriver.dll
+c:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\WebDriver.xml
+C:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\chromedriver.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\chromedriver-license.txt
+C:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\SeleniumShield.Driver.dll
+C:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\WebDriver.Support.dll
+C:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\WebDriver.Support.xml
