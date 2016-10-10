@@ -3,6 +3,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,11 +18,26 @@ namespace Arcadia_test_task
             set { driver = value;}        
         }*/
         private TimeSpan TIMEOUT = new TimeSpan(0,0,30);
-        public string BASEURL = "http://www.euromoneyplc.com/";
 
         public void GoToURL(string url)
         {
             driver.Navigate().GoToUrl(url);
+        }
+
+        public ReadOnlyCollection<IWebElement> FindElements(By element)
+        {
+            return driver.FindElements(element);
+
+        }
+
+        public bool IsCurrentUrl(string url)
+        {
+            return (driver.Url.Contains(url));
+        }
+
+        public bool IsElementActive(By element)
+        {
+            return FindElement(element).GetAttribute("class").Contains("active");
         }
 
         protected IWebElement FindElement(By element)
@@ -34,6 +50,11 @@ namespace Arcadia_test_task
         protected void ClickElement(By element)
         {
             FindElement(element).Click();           
+        }
+
+        protected void ClickElementInElement(By elementParent, By elementChild)
+        {
+            FindElement(elementParent).FindElement(elementChild).Click();
         }
 
         protected IWebElement GetParent (IWebElement element)
@@ -67,6 +88,11 @@ namespace Arcadia_test_task
             }
             catch { return false; }
             return true;
+        }
+
+        public void GoToNextWindow()
+        {
+            driver.SwitchTo().Window(driver.WindowHandles.Last());
         }
     }
 }

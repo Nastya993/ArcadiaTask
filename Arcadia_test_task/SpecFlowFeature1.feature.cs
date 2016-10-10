@@ -66,11 +66,11 @@ namespace Arcadia_test_task
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Story1")]
-        [NUnit.Framework.CategoryAttribute("mytag")]
+        [NUnit.Framework.CategoryAttribute("firstSuite")]
         public virtual void Story1()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Story1", new string[] {
-                        "mytag"});
+                        "firstSuite"});
 #line 8
 this.ScenarioSetup(scenarioInfo);
 #line 9

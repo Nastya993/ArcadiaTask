@@ -16,7 +16,7 @@ namespace Arcadia_test_task
         public static void Before()
         {
             BaseClass.driver = new ChromeDriver();
-
+            BaseClass.driver.Manage().Window.Size = new System.Drawing.Size(1024,600);
         }
 
         [AfterTestRun]

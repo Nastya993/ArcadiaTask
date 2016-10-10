@@ -56,12 +56,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helper\BaseClass.cs" />
-    <Compile Include="StepsDefinitions\EuromoneySteps.cs" />
-    <Compile Include="Pages\Blocks\Footer.cs" />
-    <Compile Include="Pages\HomePage.cs" />
+    <Compile Include="Pages\EuroMoneyPls\LegalMediaPage.cs" />
+    <Compile Include="Pages\Iflr\CheckoutPage.cs" />
+    <Compile Include="Pages\Iflr\IflrHomePage.cs" />
+    <Compile Include="Pages\Iflr\SubscriptionGroupsPage.cs" />
+    <Compile Include="StepsDefinitions\EuroMoneyPlsSteps.cs" />
+    <Compile Include="Pages\EuroMoneyPls\EuroMoneyPlsHomePage.cs" />
     <Compile Include="Helper\Hooks.cs" />
-    <Compile Include="Pages\ManagementTeamPage.cs" />
-    <Compile Include="Pages\Blocks\Menu.cs" />
+    <Compile Include="Pages\EuroMoneyPls\ManagementTeamPage.cs" />
+    <Compile Include="Pages\EuroMoneyPls\BasePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpecFlowFeature1.feature.cs">
       <AutoGen>True</AutoGen>

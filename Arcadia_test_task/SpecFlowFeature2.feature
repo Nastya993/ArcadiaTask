@@ -1,17 +1,18 @@
 ﻿Feature: EuromoneyStore 
 	As a user
-	I want go to the Euromoney store
-	So that I can purchase the book of the month
+	I want to see International Financial Law Review on Our Portfolio -> Legal Media Page
+	So that I can reach it and see subscription info
 
-
-@mytag
+@firstSuite
 Scenario: Story2
-	Given 
-	And 
-	When 
-	Then The Euromoney Store link displayed correctly on the menu item
-	And The Euromoney Store link navigates to the online store
-	And The view more details link on the book of the month section navigates to the details page
-	And When Add to Cart is clicked the book of the month is added to the shopping cart
-	And The price of the book is displayed in GBP
+	Given I have opened start page 
+	When I click Legal Media menu 
+	Then On Legal Media Page I can find Financial Law Review info
+	When I Click visit IFLR button
+	Then IFLR main page opens in new tab
+	When I click Subscribe button
+	And I can select Personal package
+	Then The prices are in Pounds
+	And 12 Months package is pre-selected 
+
 
