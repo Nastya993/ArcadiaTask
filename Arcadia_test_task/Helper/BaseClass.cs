@@ -33,7 +33,17 @@ namespace Arcadia_test_task
 
         public bool IsElementActive(By element)
         {
-            return FindElement(element).GetAttribute("class").Contains("active");
+            IWebElement webElemnt = FindElement(element);
+            bool attributeClass = false;
+            try
+            {
+                attributeClass = webElemnt.GetAttribute("class").Contains("active");
+            }
+            catch 
+            {
+                return false;
+            }
+            return attributeClass;
         }
 
         protected IWebElement FindElement(By element)
