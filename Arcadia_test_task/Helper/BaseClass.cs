@@ -100,6 +100,5 @@ namespace Arcadia_test_task
         {
             WebDriver.SwitchTo().Window(WebDriver.WindowHandles.Last());
         }
-
     }
 }

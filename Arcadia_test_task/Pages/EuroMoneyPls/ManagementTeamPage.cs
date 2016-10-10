@@ -17,13 +17,6 @@ namespace Arcadia_test_task
         {
         }
 
-        /*
-         * menu, Portfolio, LinkedIn elements are present, footer 
-         * (Contact Us, T&Cs etc) is present, Management team title 
-         * is present)
-	     * Verify that the URL of the first image is present.
-         * */
-
         public bool IsTitlePresent()
         {
             return IsElementDisplayed(title);
