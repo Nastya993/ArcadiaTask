@@ -12,6 +12,11 @@ namespace Arcadia_test_task
         By title = By.XPath("//h1[text()='Management team']");
         By firstImage = By.XPath("//image");
 
+        public ManagementTeamPage(IWebDriver driver)
+            :base(driver)
+        {
+        }
+
         /*
          * menu, Portfolio, LinkedIn elements are present, footer 
          * (Contact Us, T&Cs etc) is present, Management team title 

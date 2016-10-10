@@ -10,6 +10,13 @@ namespace Arcadia_test_task
     class EuroMoneyPlsHomePage : BasePage
     {
         public string BASEURL = "http://www.euromoneyplc.com";
+
+        public EuroMoneyPlsHomePage(IWebDriver driver)
+            :base(driver)
+        {
+
+        }
+
         public void GoToHomePage()
         {
             GoToURL(BASEURL);

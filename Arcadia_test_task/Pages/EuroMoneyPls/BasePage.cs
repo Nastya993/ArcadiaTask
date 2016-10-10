@@ -17,14 +17,20 @@ namespace Arcadia_test_task
         public By logo = By.XPath("//span[@class='header_logo']//img");
         public By portfolio = By.XPath("//span[text()='Portfolio']");
 
+        public BasePage(IWebDriver driver)
+            : base(driver)
+        {
+
+        }
+
         public void ClickMenuButton()
         {
-            ClickElement(menuButton);                    
+            ClickElement(menuButton);
         }
 
         public void ClickWhoWeAreButton()
         {
-            ClickElement(whoWeAreButton);   
+            ClickElement(whoWeAreButton);
         }
 
         public void ClickManagementTeamButton()

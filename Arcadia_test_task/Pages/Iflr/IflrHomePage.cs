@@ -11,6 +11,12 @@ namespace Arcadia_test_task.Pages
     {
         public string url = "http://www.iflr.com";
         By subscribeButton = By.XPath("//a[text()='Subscribe']");
+
+        public IflrHomePage(IWebDriver driver)
+            :base(driver)
+        {
+        }
+
         public void ClickSubscribeButton()
         {
             ClickElement(subscribeButton);

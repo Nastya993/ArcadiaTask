@@ -62,7 +62,6 @@
     <Compile Include="Pages\Iflr\SubscriptionGroupsPage.cs" />
     <Compile Include="StepsDefinitions\EuroMoneyPlsSteps.cs" />
     <Compile Include="Pages\EuroMoneyPls\EuroMoneyPlsHomePage.cs" />
-    <Compile Include="Helper\Hooks.cs" />
     <Compile Include="Pages\EuroMoneyPls\ManagementTeamPage.cs" />
     <Compile Include="Pages\EuroMoneyPls\BasePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

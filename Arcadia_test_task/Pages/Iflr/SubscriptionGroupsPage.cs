@@ -11,6 +11,11 @@ namespace Arcadia_test_task.Pages.Iflr
     {
         By personaSelectButton = By.XPath("//table//tr[4]//td[1]/a");
 
+        public SubscriptionGroupsPage(IWebDriver driver)
+            :base(driver)
+        {
+        }
+
         public void ClickPersonaSelectButton()
         {
             ClickElement(personaSelectButton);

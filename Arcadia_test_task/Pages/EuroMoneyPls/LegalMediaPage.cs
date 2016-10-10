@@ -11,7 +11,12 @@ namespace Arcadia_test_task.Pages.Economy
     {
         By financialInfo = By.XPath("//h2[text()='International Financial Law Review']/../p");
         By financialLink = By.XPath("//h2[text()='International Financial Law Review']/../p/a");
-        
+
+        public LegalMediaPage(IWebDriver driver)
+            :base(driver)
+        {
+        }
+
         public bool IsFinancialInfoDiaplyed()
         {
             return IsElementDisplayed(financialInfo);

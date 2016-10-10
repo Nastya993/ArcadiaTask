@@ -14,3 +14,35 @@ C:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_te
 C:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\SeleniumShield.Driver.dll
 C:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\WebDriver.Support.dll
 C:\Users\User\Documents\Visual Studio 2013\Projects\Arcadia_test_task\Arcadia_test_task\bin\Debug\WebDriver.Support.xml
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\obj\Debug\Arcadia_test_task.csprojResolveAssemblyReference.cache
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\obj\Debug\Arcadia_test_task.dll
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\chromedriver.exe
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\chromedriver-license.txt
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\Arcadia_test_task.dll.config
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\Arcadia_test_task.dll
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\Arcadia_test_task.pdb
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\nunit.framework.dll
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\SeleniumShield.Driver.dll
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\TechTalk.SpecFlow.dll
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\WebDriver.dll
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\WebDriver.Support.dll
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\nunit.framework.xml
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\WebDriver.xml
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\WebDriver.Support.xml
+G:\Downloads\ArcadiaTask-master(2)\ArcadiaTask-master\Arcadia_test_task\obj\Debug\Arcadia_test_task.pdb
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\chromedriver.exe
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\chromedriver-license.txt
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\Arcadia_test_task.dll.config
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\Arcadia_test_task.dll
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\Arcadia_test_task.pdb
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\nunit.framework.dll
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\SeleniumShield.Driver.dll
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\TechTalk.SpecFlow.dll
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\WebDriver.dll
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\WebDriver.Support.dll
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\nunit.framework.xml
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\WebDriver.xml
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\bin\Debug\WebDriver.Support.xml
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\obj\Debug\Arcadia_test_task.csprojResolveAssemblyReference.cache
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\obj\Debug\Arcadia_test_task.dll
+D:\ArcadiaTask-master (1)\ArcadiaTask-master\Arcadia_test_task\obj\Debug\Arcadia_test_task.pdb

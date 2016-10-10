@@ -12,7 +12,6 @@ namespace Arcadia_test_task
     [Binding]
     public class EuroMoneyPls
     {
-        
         ManagementTeamPage managementTeamPage;
         EuroMoneyPlsHomePage homePage;
         LegalMediaPage legalMediaPage;
@@ -20,14 +19,33 @@ namespace Arcadia_test_task
         SubscriptionGroupsPage subscriptionGroupPage;
         CheckoutPage checkoutPage;
 
+        static IWebDriver webDriver;
+
+        #region [Hooks]
+
+        [BeforeTestRun]
+        public static void Before()
+        {
+            webDriver = new ChromeDriver();
+            webDriver.Manage().Window.Size = new System.Drawing.Size(1024, 600);
+        }
+
+        [AfterTestRun]
+        public static void After()
+        {
+            webDriver.Quit();
+        }
+
+        #endregion
+
         [When(@"I click Legal Media menu")]
         public void WhenIClickLegalMediaMenu()
         {
-            homePage = new EuroMoneyPlsHomePage();
+            homePage = new EuroMoneyPlsHomePage(webDriver);
             homePage.ClickMenuButton();
             homePage.ClickOurPortfolio();
             homePage.ClickLegalMedia();
-            legalMediaPage = new LegalMediaPage();
+            legalMediaPage = new LegalMediaPage(webDriver);
         }
 
         [Then(@"On Legal Media Page I can find Financial Law Review info")]
@@ -40,7 +58,7 @@ namespace Arcadia_test_task
         public void WhenIClickvisitIFLRbutton()
         {
             legalMediaPage.ClickFinancialLink();
-            iflrHomePage = new IflrHomePage();
+            iflrHomePage = new IflrHomePage(webDriver);
         }
 
         [Then(@"IFLR main page opens in new tab")]
@@ -55,14 +73,14 @@ namespace Arcadia_test_task
         public void WhenIClickSubscribeButton()
         {
             iflrHomePage.ClickSubscribeButton();
-            subscriptionGroupPage = new SubscriptionGroupsPage();
+            subscriptionGroupPage = new SubscriptionGroupsPage(webDriver);
         }
 
         [When(@"I can select Personal package")]
         public void WhenICanSelectPersonalPackage()
         {
             subscriptionGroupPage.ClickPersonaSelectButton();
-            checkoutPage = new CheckoutPage();
+            checkoutPage = new CheckoutPage(webDriver);
         }
 
         [Then(@"The prices are in Pounds")]
@@ -81,7 +99,7 @@ namespace Arcadia_test_task
         public void GivenIHaveOpenedStartPage()
         {
 
-            homePage = new EuroMoneyPlsHomePage();
+            homePage = new EuroMoneyPlsHomePage(webDriver);
             homePage.GoToHomePage();
         }
 
@@ -91,7 +109,7 @@ namespace Arcadia_test_task
             homePage.ClickMenuButton();
             homePage.ClickWhoWeAreButton();
             homePage.ClickManagementTeamButton();
-            managementTeamPage = new ManagementTeamPage();
+            managementTeamPage = new ManagementTeamPage(webDriver);
         }     
         
         [Then(@"I see management team page is displayed correctly")]
